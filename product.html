@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/jpeg" href="assets/images/pintechra-official-logo.jpg" />
+  <title>Produk — PINTECHRA Smart Display P10</title>
+  <meta name="description" content="Spesifikasi resmi PINTECHRA Smart Display P10: Jam Digital IoT & Running Text terintegrasi." />
+
+  <!-- Google Fonts: Space Grotesk, Inter, IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="index.html" class="brand-logo-link" aria-label="PINTECHRA Homepage">
+          <img src="assets/images/pintechra-official-logo.jpg" alt="PINTECHRA Logo" class="brand-logo-img" height="38" />
+          <div class="brand-name-group">
+            <span class="brand-name-text">PINTECHRA</span>
+            <span class="brand-name-sub">PRECISION HARDWARE</span>
+          </div>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Navigasi Utama">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Beranda</a></li>
+            <li class="nav-item"><a href="product.html" class="nav-link is-active">Produk</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">Tentang Kami</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Kontak</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a href="contact.html" class="btn-primary header-cta">Kontak</a>
+          <button type="button" class="mobile-toggle-btn" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mobile-navigation">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Drawer -->
+      <div class="mobile-drawer" id="mobile-navigation" aria-hidden="true">
+        <div class="mobile-drawer-inner">
+          <nav class="mobile-nav-links">
+            <a href="index.html" class="mobile-nav-link">Beranda</a>
+            <a href="product.html" class="mobile-nav-link is-active">Produk</a>
+            <a href="about.html" class="mobile-nav-link">Tentang Kami</a>
+            <a href="contact.html" class="mobile-nav-link">Kontak</a>
+          </nav>
+          <div class="mobile-drawer-footer">
+            <a href="contact.html" class="btn-primary" style="width: 100%;">Hubungi PINTECHRA</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <!-- 1. Product Hero -->
+      <section class="product-hero-section">
+        <div class="container">
+          <div class="product-hero-header">
+            <h1 class="product-hero-title">PINTECHRA Smart Display P10</h1>
+            <p class="product-hero-lead">
+              Solusi Jam Digital IoT &amp; Running Text terpadu dalam satu perangkat keras. Didukung modul RTC DS3231 presisi tinggi, konektivitas Wi-Fi ESP8266, dan tiga varian casing premium.
+            </p>
+          </div>
+
+          <div class="product-flagship-frame">
+            <img src="assets/images/pintechra-smart-clock-3d-enclosure.png" alt="PINTECHRA Smart Display P10" class="product-flagship-img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Dual Capabilities -->
+      <section class="product-capabilities-section">
+        <div class="container">
+          <div class="section-head-center">
+            <h2 class="section-title-large">Dua Mode Fungsional</h2>
+            <p class="section-lead-center">Satu unit hardware yang dapat difungsikan untuk jadwal ibadah otomatis maupun papan informasi warta.</p>
+          </div>
+
+          <div class="capabilities-duo-grid">
+            <div class="duo-card">
+              <span class="duo-badge">Mode 01</span>
+              <h3 class="duo-title">Jam Digital &amp; Jadwal Salat</h3>
+              <p class="duo-desc">
+                Dirancang untuk masjid dan ruang ibadah. Menghitung waktu salat 5 waktu secara otomatis sesuai koordinat lokasi, dilengkapi jeda iqamah dan sinkronisasi waktu server NTP via Wi-Fi.
+              </p>
+            </div>
+
+            <div class="duo-card">
+              <span class="duo-badge">Mode 02</span>
+              <h3 class="duo-title">Signage &amp; Running Text P10</h3>
+              <p class="duo-desc">
+                Media warta informasi publik untuk gedung, kantor, dan fasilitas umum. Pesan teks berjalan dapat diatur secara nirkabel melalui antarmuka browser atau protokol MQTT.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Operational Gallery -->
+      <section class="product-gallery-section">
+        <div class="container">
+          <div class="section-head-center">
+            <h2 class="section-title-large">Dokumentasi Mode Operasional</h2>
+          </div>
+
+          <div class="gallery-viewer-container">
+            <div class="gallery-mode-toggle" role="group" aria-label="Pilihan mode produk">
+              <button type="button" class="mode-btn is-active" data-mode="jam-masjid" aria-pressed="true">Jam Digital &amp; Salat</button>
+              <button type="button" class="mode-btn" data-mode="signage-p10" aria-pressed="false">Signage &amp; Running Text</button>
+            </div>
+
+            <div class="gallery-card">
+              <div class="gallery-card-content">
+                <div class="gallery-visual-pane">
+                  <div class="gallery-image-wrapper">
+                    <img src="assets/images/pintechra-smart-clock-3d-enclosure.png" alt="Jam Digital & Salat" class="gallery-image" />
+                  </div>
+                </div>
+
+                <div class="gallery-info-pane">
+                  <h3 class="gallery-title">Jam Digital &amp; Jadwal Salat</h3>
+                  <p class="gallery-description">Konfigurasi waktu otomatis berbasis lokasi untuk 5 waktu salat, jeda iqamah, dan tampilan hadis secara periodik.</p>
+                  <div class="gallery-features-list">
+                    <ul>
+                      <li>Perhitungan waktu salat terintegrasi otomatis</li>
+                      <li>Sinkronisasi waktu via Wi-Fi (NTP)</li>
+                      <li>Waktu tetap aman saat listrik padam via modul RTC DS3231</li>
+                      <li>Siklus tampilan jam, tanggal, dan pengingat jeda salat</li>
+                    </ul>
+                  </div>
+                  <div style="margin-top: 1.5rem;">
+                    <a href="contact.html" class="btn-secondary">Konsultasi Produk</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Interactive Casing Selector -->
+      <section class="casing-selector-section">
+        <div class="container">
+          <div class="casing-header">
+            <div class="section-badge">
+              <span class="section-badge-dot"></span>
+              <span>Pilihan Material</span>
+            </div>
+            <h2 class="casing-title">Tiga Karakter Material Casing</h2>
+            <p class="casing-lead">Satu platform hardware Jam Digital IoT Running Text dengan tiga pilihan fabrikasi sasis sesuai kebutuhan ruangan Anda.</p>
+          </div>
+
+          <div class="casing-tabs-wrapper" role="group" aria-label="Pilihan material casing">
+            <button type="button" class="casing-tab-btn" data-casing="aluminium" aria-pressed="false">
+              <div class="tab-indicator-number">01</div>
+              <div class="tab-info">
+                <span class="tab-name">Aluminium</span>
+                <span class="tab-material">Industrial Alloy</span>
+              </div>
+            </button>
+
+            <button type="button" class="casing-tab-btn is-active" data-casing="filament-3d" aria-pressed="true">
+              <div class="tab-indicator-number">02</div>
+              <div class="tab-info">
+                <span class="tab-name">Filamen 3D</span>
+                <span class="tab-material">3D Enclosure</span>
+              </div>
+            </button>
+
+            <button type="button" class="casing-tab-btn" data-casing="natural-wood" aria-pressed="false">
+              <div class="tab-indicator-number">03</div>
+              <div class="tab-info">
+                <span class="tab-name">Kayu Natural</span>
+                <span class="tab-material">Natural Wood</span>
+              </div>
+            </button>
+          </div>
+
+          <div class="casing-display-grid">
+            <div class="casing-visual-container">
+              <div class="casing-image-frame">
+                <img src="assets/images/pintechra-smart-clock-3d-enclosure.png" alt="PINTECHRA Jam Digital IoT Casing Filamen 3D" class="casing-active-img" />
+              </div>
+            </div>
+
+            <div class="casing-details-panel">
+              <h3 class="casing-detail-title">Filamen 3D</h3>
+              <p class="casing-detail-subtitle">Custom 3D-Printed Chamfered Enclosure</p>
+              <p class="casing-detail-desc">Enclosure cetak 3D bertoleransi ketat dengan sudut chamfer industrial dan bezel pelindung silau. Ringan, presisi, dan memiliki tekstur matte khas.</p>
+
+              <div class="casing-specs-list">
+                <ul>
+                  <li>Sudut chamfer fungsional pelindung panel LED</li>
+                  <li>Tekstur permukaan matte yang menyerap pantulan cahaya</li>
+                  <li>Ukiran relief monogram PINTECHRA</li>
+                  <li>Port modul internal yang terintegrasi presisi</li>
+                </ul>
+              </div>
+
+              <div class="casing-actions">
+                <a href="contact.html" class="btn-primary casing-cta-btn">
+                  <span>Konsultasi Casing Filamen 3D</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Technical Specifications -->
+      <section class="product-specs-section">
+        <div class="container">
+          <div class="spec-table-container">
+            <div class="spec-table-header">
+              <h3 class="spec-main-title">Spesifikasi Perangkat Keras</h3>
+              <p class="spec-table-lead">Ringkasan parameter teknis platform PINTECHRA Smart Display P10.</p>
+            </div>
+
+            <div class="spec-category-grid">
+              <div class="spec-category-card">
+                <div class="spec-cat-header">
+                  <span class="spec-cat-number">01</span>
+                  <h4 class="spec-cat-title">Sistem Tampilan</h4>
+                </div>
+                <dl class="spec-items-list">
+                  <div class="spec-row">
+                    <dt class="spec-label">Tipe Modul</dt>
+                    <dd class="spec-value-group"><span class="spec-value">P10 LED Matrix Panel</span><span class="spec-detail">Panel LED matriks standar industri</span></dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt class="spec-label">Resolusi Per Modul</dt>
+                    <dd class="spec-value-group"><span class="spec-value">32 × 16 Pixel</span><span class="spec-detail">Matriks grid titik LED monokromatik presisi</span></dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt class="spec-label">Mode Penayangan</dt>
+                    <dd class="spec-value-group"><span class="spec-value">Dual Mode: Clock &amp; Running Text</span></dd>
+                  </div>
+                </dl>
+              </div>
+
+              <div class="spec-category-card">
+                <div class="spec-cat-header">
+                  <span class="spec-cat-number">02</span>
+                  <h4 class="spec-cat-title">Pemrosesan &amp; Jaringan</h4>
+                </div>
+                <dl class="spec-items-list">
+                  <div class="spec-row">
+                    <dt class="spec-label">Mikrokontroler</dt>
+                    <dd class="spec-value-group"><span class="spec-value">NodeMCU ESP8266</span><span class="spec-detail">Pemroses terintegrasi Wi-Fi 2.4 GHz</span></dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt class="spec-label">Komunikasi</dt>
+                    <dd class="spec-value-group"><span class="spec-value">MQTT Protocol &amp; Wi-Fi</span></dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt class="spec-label">Pengaturan</dt>
+                    <dd class="spec-value-group"><span class="spec-value">Web Dashboard / IoT</span><span class="spec-detail">Akses konfigurasi nirkabel langsung via browser</span></dd>
+                  </div>
+                </dl>
+              </div>
+
+              <div class="spec-category-card">
+                <div class="spec-cat-header">
+                  <span class="spec-cat-number">03</span>
+                  <h4 class="spec-cat-title">Manajemen Waktu</h4>
+                </div>
+                <dl class="spec-items-list">
+                  <div class="spec-row">
+                    <dt class="spec-label">Modul RTC</dt>
+                    <dd class="spec-value-group"><span class="spec-value">RTC DS3231 Presisi Tinggi</span><span class="spec-detail">Osilator terkompensasi suhu internal</span></dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt class="spec-label">Sinkronisasi Waktu</dt>
+                    <dd class="spec-value-group"><span class="spec-value">Network Time Protocol (NTP)</span></dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt class="spec-label">Baterai Cadangan</dt>
+                    <dd class="spec-value-group"><span class="spec-value">Terintegrasi Modul RTC</span><span class="spec-detail">Waktu tetap akurat saat listrik padam</span></dd>
+                  </div>
+                </dl>
+              </div>
+
+              <div class="spec-category-card">
+                <div class="spec-cat-header">
+                  <span class="spec-cat-number">04</span>
+                  <h4 class="spec-cat-title">Fabrikasi Sasis</h4>
+                </div>
+                <dl class="spec-items-list">
+                  <div class="spec-row">
+                    <dt class="spec-label">Pilihan Casing</dt>
+                    <dd class="spec-value-group"><span class="spec-value">3 Pilihan Material</span><span class="spec-detail">Aluminium Anodized, Filamen 3D, Kayu Natural</span></dd>
+                  </div>
+                  <div class="spec-row">
+                    <dt class="spec-label">Status Perangkat</dt>
+                    <dd class="spec-value-group"><span class="spec-value">Active Development</span></dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Bottom Banner -->
+      <section style="padding: 5rem 0; border-top: 1px solid var(--color-gunmetal); background: var(--color-obsidian-deep);">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; gap: 2rem; flex-wrap: wrap;">
+          <div>
+            <h2 style="font-size: var(--text-2xl); margin-bottom: 0.5rem;">Siap Membahas Kebutuhan Anda?</h2>
+            <p style="color: var(--color-titanium);">Hubungi kami via WhatsApp, Instagram, atau TikTok untuk konsultasi teknis dan pemesanan custom casing.</p>
+          </div>
+          <a href="contact.html" class="btn-primary">Hubungi Kami</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand-col">
+            <a href="index.html" class="footer-logo-link">
+              <img src="assets/images/pintechra-official-logo.jpg" alt="PINTECHRA" class="footer-logo-img" height="42" />
+              <div class="brand-name-group">
+                <span class="brand-name-text">PINTECHRA</span>
+                <span class="brand-name-sub">PRECISION HARDWARE</span>
+              </div>
+            </a>
+            <p class="footer-brand-desc">PINTECHRA mengembangkan solusi teknologi digital melalui irisan hardware engineering, software, dan visual design.</p>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Navigasi</h4>
+            <ul class="footer-nav-list">
+              <li><a href="index.html" class="footer-link">Beranda</a></li>
+              <li><a href="product.html" class="footer-link">Smart Display P10</a></li>
+              <li><a href="about.html" class="footer-link">Filosofi &amp; Desain</a></li>
+              <li><a href="contact.html" class="footer-link">Kontak Langsung</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Pilihan Casing</h4>
+            <ul class="footer-nav-list">
+              <li><a href="product.html" class="footer-link footer-casing-link"><span>Aluminium</span><span class="casing-tag">Alloy</span></a></li>
+              <li><a href="product.html" class="footer-link footer-casing-link"><span>Filamen 3D</span><span class="casing-tag">3D</span></a></li>
+              <li><a href="product.html" class="footer-link footer-casing-link"><span>Kayu Natural</span><span class="casing-tag">Wood</span></a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Saluran Resmi</h4>
+            <ul class="footer-nav-list">
+              <li><a href="https://wa.me/6285151202861?text=Halo%20PINTECHRA%2C%20saya%20ingin%20berkonsultasi%20mengenai%20produk." target="_blank" rel="noopener noreferrer" class="footer-link footer-social-item">WhatsApp (+62 851-5120-2861)</a></li>
+              <li><a href="https://www.instagram.com/pintechra.iot" target="_blank" rel="noopener noreferrer" class="footer-link footer-social-item">Instagram (@pintechra.iot)</a></li>
+              <li><a href="https://tiktok.com/@pintechra0" target="_blank" rel="noopener noreferrer" class="footer-link footer-social-item">TikTok (@pintechra0)</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span class="footer-copyright">&copy; <span data-current-year>2026</span> PINTECHRA. Seluruh hak cipta dilindungi.</span>
+          <span class="footer-note">Hardware Engineering &amp; IoT Solutions</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

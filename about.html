@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/jpeg" href="assets/images/pintechra-official-logo.jpg" />
+  <title>Tentang Kami — PINTECHRA Filosofi & Rancang Bangun</title>
+  <meta name="description" content="Filosofi rekayasa perangkat keras dan pendekatan desain Quiet Luxury PINTECHRA." />
+
+  <!-- Google Fonts: Space Grotesk, Inter, IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="index.html" class="brand-logo-link" aria-label="PINTECHRA Homepage">
+          <img src="assets/images/pintechra-official-logo.jpg" alt="PINTECHRA Logo" class="brand-logo-img" height="38" />
+          <div class="brand-name-group">
+            <span class="brand-name-text">PINTECHRA</span>
+            <span class="brand-name-sub">PRECISION HARDWARE</span>
+          </div>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Navigasi Utama">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Beranda</a></li>
+            <li class="nav-item"><a href="product.html" class="nav-link">Produk</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link is-active">Tentang Kami</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Kontak</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a href="contact.html" class="btn-primary header-cta">Kontak</a>
+          <button type="button" class="mobile-toggle-btn" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mobile-navigation">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Drawer -->
+      <div class="mobile-drawer" id="mobile-navigation" aria-hidden="true">
+        <div class="mobile-drawer-inner">
+          <nav class="mobile-nav-links">
+            <a href="index.html" class="mobile-nav-link">Beranda</a>
+            <a href="product.html" class="mobile-nav-link">Produk</a>
+            <a href="about.html" class="mobile-nav-link is-active">Tentang Kami</a>
+            <a href="contact.html" class="mobile-nav-link">Kontak</a>
+          </nav>
+          <div class="mobile-drawer-footer">
+            <a href="contact.html" class="btn-primary" style="width: 100%;">Hubungi PINTECHRA</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <!-- 1. Hero / Philosophy -->
+      <section class="about-hero-section">
+        <div class="container">
+          <div class="about-hero-header">
+            <h1 class="about-hero-title">Filosofi &amp; Rancang Bangun</h1>
+            <p class="about-hero-lead">
+              PINTECHRA menggabungkan rekayasa mikroelektronika, arsitektur firmware mandiri, dan material fisik autentik. Teknologi terapan yang dirancang untuk bekerja dengan presisi, tenang, dan tahan lama.
+            </p>
+          </div>
+
+          <div class="about-brand-grid">
+            <div class="brand-stamp-card">
+              <div class="stamp-frame">
+                <img src="assets/images/pintechra-official-logo.jpg" alt="PINTECHRA Official Logo" class="stamp-image" />
+              </div>
+            </div>
+
+            <div class="brand-philosophy-card">
+              <span class="tech-label">Quiet Luxury Hardware</span>
+              <h2 class="philosophy-title">Teknologi dalam Keheningan</h2>
+              <p class="philosophy-body">
+                Quiet Luxury bagi kami adalah keandalan fungsi tanpa tuntutan perhatian berlebih. Sebuah jam digital dan running text harus mampu beroperasi 24 jam nonstop, menyajikan informasi dengan keterbacaan tajam, dan memiliki sasis fisik yang menyatu alami dengan estetika ruangan.
+              </p>
+              <div class="philosophy-points">
+                <div class="point-item">
+                  <strong>Ketahanan Operasional</strong>
+                  <p>Komponen terpilih untuk runtime harian berkelanjutan.</p>
+                </div>
+                <div class="point-item">
+                  <strong>Kejujuran Material</strong>
+                  <p>Aluminium anodized, kayu natural, dan termoplastik bertekstur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Tech Pillars -->
+      <section class="about-tech-section">
+        <div class="container">
+          <div class="section-head-center">
+            <h2 class="section-title-large">Integrasi Hardware &amp; Software</h2>
+            <p class="section-lead-center">Penyelarasan sirkuit elektronik dan perangkat lunak yang mengendalikannya.</p>
+          </div>
+
+          <div class="tech-pillars-grid">
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <span class="pillar-number">01</span>
+              </div>
+              <h3 class="pillar-title">Mikroelektronika &amp; Waktu</h3>
+              <p class="pillar-desc">Penyelarasan osilator suhu terkompensasi RTC DS3231 bersama mikrokontroler ESP8266. Fungsi jam tetap akurat bahkan saat koneksi jaringan terputus.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <span class="pillar-number">02</span>
+              </div>
+              <h3 class="pillar-title">Komunikasi Nirkabel</h3>
+              <p class="pillar-desc">Pemanfaatan protokol MQTT dan antarmuka web lokal untuk pertukaran data real-time dengan latensi minimal dan pengoperasian langsung dari browser.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-header">
+                <span class="pillar-number">03</span>
+              </div>
+              <h3 class="pillar-title">Fabrikasi Sasis Presisi</h3>
+              <p class="pillar-desc">Toleransi dimensi sasis yang dihitung pas menahan modul LED P10 (32 × 16 pixel) dalam pilihan aluminium anodized, filamen 3D, maupun kayu solid alami.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Bottom Banner -->
+      <section style="padding: 5rem 0; border-top: 1px solid var(--color-gunmetal); background: var(--color-obsidian-deep);">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; gap: 2rem; flex-wrap: wrap;">
+          <div>
+            <h2 style="font-size: var(--text-2xl); margin-bottom: 0.5rem;">Siap Berdiskusi Mengenai Kebutuhan Anda?</h2>
+            <p style="color: var(--color-titanium);">Hubungi kami via WhatsApp, Instagram, atau TikTok untuk informasi produk dan custom casing.</p>
+          </div>
+          <div class="about-cta-buttons">
+            <a href="product.html" class="btn-secondary">Lihat Produk</a>
+            <a href="contact.html" class="btn-primary">Hubungi Kami</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand-col">
+            <a href="index.html" class="footer-logo-link">
+              <img src="assets/images/pintechra-official-logo.jpg" alt="PINTECHRA" class="footer-logo-img" height="42" />
+              <div class="brand-name-group">
+                <span class="brand-name-text">PINTECHRA</span>
+                <span class="brand-name-sub">PRECISION HARDWARE</span>
+              </div>
+            </a>
+            <p class="footer-brand-desc">PINTECHRA mengembangkan solusi teknologi digital melalui irisan hardware engineering, software, dan visual design.</p>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Navigasi</h4>
+            <ul class="footer-nav-list">
+              <li><a href="index.html" class="footer-link">Beranda</a></li>
+              <li><a href="product.html" class="footer-link">Smart Display P10</a></li>
+              <li><a href="about.html" class="footer-link">Filosofi &amp; Desain</a></li>
+              <li><a href="contact.html" class="footer-link">Kontak Langsung</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Pilihan Casing</h4>
+            <ul class="footer-nav-list">
+              <li><a href="product.html" class="footer-link footer-casing-link"><span>Aluminium</span><span class="casing-tag">Alloy</span></a></li>
+              <li><a href="product.html" class="footer-link footer-casing-link"><span>Filamen 3D</span><span class="casing-tag">3D</span></a></li>
+              <li><a href="product.html" class="footer-link footer-casing-link"><span>Kayu Natural</span><span class="casing-tag">Wood</span></a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Saluran Resmi</h4>
+            <ul class="footer-nav-list">
+              <li><a href="https://wa.me/6285151202861?text=Halo%20PINTECHRA%2C%20saya%20ingin%20berkonsultasi%20mengenai%20produk." target="_blank" rel="noopener noreferrer" class="footer-link footer-social-item">WhatsApp (+62 851-5120-2861)</a></li>
+              <li><a href="https://www.instagram.com/pintechra.iot" target="_blank" rel="noopener noreferrer" class="footer-link footer-social-item">Instagram (@pintechra.iot)</a></li>
+              <li><a href="https://tiktok.com/@pintechra0" target="_blank" rel="noopener noreferrer" class="footer-link footer-social-item">TikTok (@pintechra0)</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span class="footer-copyright">&copy; <span data-current-year>2026</span> PINTECHRA. Seluruh hak cipta dilindungi.</span>
+          <span class="footer-note">Hardware Engineering &amp; IoT Solutions</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

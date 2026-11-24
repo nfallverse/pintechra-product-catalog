@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="8" fill="#121417"/>
+  <rect x="0.5" y="0.5" width="47" height="47" rx="7.5" stroke="#C5A059" stroke-opacity="0.3"/>
+  <!-- Geometric Monogram P & Precision Matrix -->
+  <path d="M14 12H26C29.866 12 33 15.134 33 19C33 22.866 29.866 26 26 26H20V36H14V12Z" stroke="#F8F6F0" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M20 18H25.5C26.8807 18 28 19.1193 28 20.5C28 21.8807 26.8807 23 25.5 23H20V18Z" fill="#C5A059"/>
+  <!-- Precision Tech dot -->
+  <circle cx="33" cy="33" r="2.5" fill="#C5A059"/>
+  <line x1="28" y1="33" x2="31" y2="33" stroke="#C5A059" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
+
